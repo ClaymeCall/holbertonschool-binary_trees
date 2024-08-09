@@ -35,8 +35,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	lsub= tree->left;
-	rsub= tree->right;
+	lsub = tree->left;
+	rsub = tree->right;
 
 	if (lsub == NULL && rsub == NULL)
 		return (1);
